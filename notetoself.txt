@@ -1,0 +1,17 @@
+./gradlew bootRun in my-backend to run backend
+npm start in my-frontend to run frontend
+
+backend:
+we have task.java, taskrespository.java, and taskcontroller.java, 
+task is the actual task,
+taskrepository is the link to the database and lets you do stuff with a database
+taskcontroller manages how you access the thing
+
+frontend:
+logic in app.js
+${api_url}/${task.id} is just a string operation to concatenate
+
+database:
+http://localhost:8080/h2-console to look at the database
+when logging in, run backend and in the terminal ctrl+f and type added connection conn0 and copy the thing after url=, then paste it in JDBC URL
+
